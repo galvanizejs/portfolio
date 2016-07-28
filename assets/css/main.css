@@ -11,6 +11,7 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
@@ -65,6 +66,11 @@ a:after {
     margin: 1em 0;
     padding: 0;
 }
+
+
+
+
+
 
 
 /*---------------------------------------------------
@@ -249,21 +255,36 @@ a:after {
 }
 
 #footwrap i {
-	padding-right: 8px;
+	padding: 8px;
 	color: #c97b25;
 	font-size: 150%;
+	
 }
+
+#emailForm {
+	display: none;
+	
+}
+	
+
 
 /* Copyright Wrap */
 
 #c {
 	background: #4a5147;
 	padding-top: 15px;
-	text-align: right;
+}
+
+#c button {
+	float: left;	
+	color: #fff;
+	background-color: #656f61;
+	border: none;
 }
 
 #c p {
 	color: white;
+	text-align: right;
 }
 
 
@@ -298,4 +319,16 @@ a:after {
 
 sm {
 	font-size: 12px;
+}
+
+
+/* Toggle CSS Options */
+
+
+.toggleCSSColors {
+   background-color: #4a5147;
+}
+
+.toggleCSSText {
+	 color: #fff;
 }
