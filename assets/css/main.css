@@ -161,7 +161,7 @@ a:after {
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -190,7 +190,7 @@ a:after {
 }
 
 #headerwrap #hireme {
-	
+
 }
 
 #headerwrap #hireme-panel {
@@ -210,7 +210,7 @@ a:after {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
-} 
+}
 
 #intro h5, p {
 	color: white;
@@ -258,14 +258,14 @@ a:after {
 	padding: 8px;
 	color: #c97b25;
 	font-size: 150%;
-	
+
 }
 
 #emailForm {
 	display: none;
-	
+
 }
-	
+
 
 
 /* Copyright Wrap */
@@ -276,7 +276,7 @@ a:after {
 }
 
 #c button {
-	float: left;	
+	float: left;
 	color: #fff;
 	background-color: #656f61;
 	border: none;
@@ -331,4 +331,8 @@ sm {
 
 .toggleCSSText {
 	 color: #fff;
+}
+
+.hidden {
+  visibility: none;
 }
